@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Registro Gymnasio</title>
+  </head>
+  <body>
+    <h1>Manejo de Formularios</h1>
+    <hr />
+    <form>
+      <label for="nombre">nombre</label>
+      <input
+        type="text"
+        id="nombre"
+        name="nombre"
+        required
+        placeholder="ESCRIBE TU NOMBRE"
+      />
+      <br />
+      <label for="genero">Genero</label>
+      <select name="genero" id="genero">
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option></select
+      ><br />
+      <label for="nacimiento">Fecha De Nacimiento</label>
+      <input type="date" name="nacimiento" id="nacimiento" />
+      <br />
+      <label for="actividades">Actividades</label> <br />
+      <input type="checkbox" name="yoga" id="yoga" value="yoga" />
+      <label for="yoga">Yoga</label>
+      <input type="checkbox" name="sauna" id="sauna" value="sauna" />
+      <label for="sauna">Sauna</label>
+      <br />
+      <label for="nivel">Nivel de Experiencia</label>
+      <select name="nivel" id="nivel">
+        <option value="principiante">principiante</option>
+        <option value="intermedio">intermedio</option>
+        <option value="experto">experto</option></select
+      ><br />
+      <label for="horario">Horario Preferido</label>
+      <input type="time" name="horario" id="horario" />
+      <br />
+      <label for="foto">Subir Foto</label>
+      <input type="file" name="foto" id="foto" />
+      <br />
+      <input type="submit" value="Registrarse" />
+    </form>
+  </body>
+</html>
